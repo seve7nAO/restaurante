@@ -1,4 +1,4 @@
-import Cupcake from "../assets/img/cup.png";
+import Cupcake from "../assets/img/Cup.png";
 import Button from "./button";
 import Bolinho from "../assets/img/bolo.png";
 function Specials() {
