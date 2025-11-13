@@ -1,16 +1,58 @@
-# React + Vite
+# ☕ Cafetaria Fictícia – React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto **fictício de cafeteria moderna**, criado com o objetivo de treinar minhas habilidades em **desenvolvimento front-end** usando **React, Vite e Tailwind CSS**.  
+Mais do que código, este projeto representa **minha caminhada de evolução como desenvolvedor** — aprendendo, errando, melhorando e criando algo visualmente agradável e funcional.
 
-Currently, two official plugins are available:
+> “Tudo posso naquele que me fortalece.” – Filipenses 4:13 ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **React** — Criação de componentes e interface dinâmica  
+- ⚡ **Vite** — Build rápido e ambiente de desenvolvimento leve  
+- 🎨 **Tailwind CSS** — Estilização moderna e responsiva  
+- 💻 **JavaScript (ES6+)** — Lógica e interatividade
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 💡 Funcionalidades Atuais
+
+- Página inicial com design minimalista e responsivo  
+- Seção de cardápio fictício  
+- Sessão “Sobre” apresentando a cafeteria  
+- Navegação fluida e layout adaptável para desktop e mobile
+
+---
+
+## 🔧 Melhorias Futuras
+
+- [ ] Sistema de **login e cadastro** de clientes  
+- [ ] **Carrinho de compras funcional**  
+- [ ] **Painel administrativo** para controle de produtos e pedidos  
+- [ ] Integração com **banco de dados real** (Firebase, Supabase, etc.)  
+- [ ] **Modo escuro** e personalização de temas  
+- [ ] **Transições animadas** entre páginas  
+- [ ] Deploy e SEO básico  
+
+---
+
+
+---
+
+## 🖥️ Como Rodar o Projeto Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seve7nAO/restaurante.git
+
+# Acesse a pasta do projeto
+cd restaurante
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
