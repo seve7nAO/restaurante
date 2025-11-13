@@ -1,0 +1,78 @@
+/* fonts primeiro */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+/* tailwind */
+@import "tailwindcss";
+
+/* variáveis globais */
+:root {
+  --color-primary: #d4af37;
+  --color-beige: #f5f3ef;
+  --color-text-dark: #2a2a2a;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Poppins", sans-serif;
+  --nav-bar: #4b2e20;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    background-color: var(--color-beige);
+    color: var(--color-text-dark);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth; /* rolagem suave para anchors */
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+  }
+}
+.texto {
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* helpers simples */
+.logo {
+  font-family: var(--font-serif);
+  color: var(--color-primary);
+}
+.lista {
+  position: relative;
+  padding-bottom: 4px; /* espaço pra barrinha */
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.lista::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.lista:hover::after {
+  width: 100%;
+}
+
+.lista:hover {
+  color: var(--color-primary);
+  transition: color 0.2s;
+}
+.lista.active::after {
+  width: 100%;
+}
