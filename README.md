@@ -39,5 +39,20 @@ Mais do que código, este projeto representa **minha caminhada de evolução com
 
 ---
 
-## 🧭 Estrutura do Projeto
 
+---
+
+## 🖥️ Como Rodar o Projeto Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seve7nAO/restaurante.git
+
+# Acesse a pasta do projeto
+cd restaurante
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
